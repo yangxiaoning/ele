@@ -1,0 +1,55 @@
+div.Dd .dd-nav {
+	text-align: center;
+	font-size: 1.8rem;
+	color: white;
+	background: #3492E9;
+	padding: 3% 0;
+}
+.dd-tab {
+	height: 50rem;
+}
+div.Dd .dd-tab ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 3% 0;
+}
+div.Dd .dd-tab ul li {
+	text-align: center;
+	font-size: 1.3rem;
+	padding: 0 0 0.5% 0;
+	box-sizing: border-box;
+}
+div.Dd .dd-tab-contain section {
+	width: 100%;
+	background: #F4F4F4;
+	height: 50rem;
+	display: none;
+}
+div.Dd .dd-left .dd-top{
+	text-align: center;
+	padding-top: 40%;
+	font-size: 1.3rem;
+}
+div.Dd .dd-left .dd-top img {
+	width: 6rem;
+	padding-bottom: 5%;
+}
+div.Dd .dd-right .dd-bottom {
+	text-align: center;
+	padding-top: 40%;
+	font-size: 1.3rem;
+}
+div.Dd .dd-right .dd-bottom img {
+	width: 6rem;
+} 
+div.Dd .dd-right .dd-bottom p {
+	padding: 5% 0;
+}
+div.Dd .dd-right .dd-bottom button {
+	font-size: 1.3rem;
+	color: white;
+	padding: 2% 4%;
+	background: #56D176;
+	border: none;
+}

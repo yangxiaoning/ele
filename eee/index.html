@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script type="text/javascript" src="angular.js" ></script>
+		<script type="text/javascript" src="angular-route.js" ></script>
+		<script type="text/javascript" src="angular-css.js" ></script>
+		<!--<script type="text/javascript" src="baiduTemplate.js" ></script>-->
+		<link rel="stylesheet" href="waimai/css/swiper.min.css" />
+	</head>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		html {
+			font-size: 62.5%;
+		}
+		a {
+			text-decoration: none;
+			color: black;
+		}
+		ul {
+			list-style: none;
+		}
+		nav {
+			width: 100%;
+			position: fixed;
+			bottom: 0;
+			background: #FAFAFA;
+		}
+		nav ul {
+			display: flex;
+			list-style: none;
+			z-index: 33;
+		}
+		nav ul li {
+			width: 25%;
+			text-align: center;
+			padding: 3% 0;
+		}
+		nav ul li a {
+			text-decoration: none;
+			color: #666666;
+		}
+		nav ul li div{
+			background: url(nav111.png);
+			width: 2.5rem;
+			height: 2.5rem;
+			background-size: 10rem;
+			margin: 0 auto;
+		}
+		nav ul li:nth-child(1) div {
+			background-position: 0 0rem;
+		}
+		nav ul li:nth-child(2) div {
+			background-position: -2.3rem 0;
+		}
+		nav ul li:nth-child(3) div {
+			background-position: -4.6rem 0;
+		}
+		nav ul li:nth-child(4) div {
+			background-position: -7.2rem 0;
+		}
+	</style>
+	<body ng-app="myApp">
+		<nav>
+			<ul>
+				<li ng-click="click()"><a href="#/">
+					<div class="jin"></div>
+					<p>外卖</p>
+				</a></li>
+				<li><a href="#/dd">
+					<div class="jin"></div>
+					<p>订单</p>
+				</a></li>
+				<li><a href="#/find">
+					<div class="jin"></div>
+					<p>发现</p>
+				</a></li>
+				<li><a href="#/mine">
+					<div class="jin"></div>
+					<p>我的</p>
+				</a></li>
+			</ul>
+		</nav>
+		<div ng-view>
+			
+		</div>
+	</body>
+	<script type="text/javascript" src="waimai/js/zepto.js" ></script>
+	<script type="text/javascript" src="waimai/js/touch.js" ></script>
+	<script type="text/javascript" src="jquery-2.2.3.js" ></script>
+	<script type="text/javascript">
+		var app = angular.module('myApp',["ngRoute",'angularCSS']);
+
+		app.config(['$routeProvider',function ($routeProvider) {
+			$routeProvider
+			.when('/',{
+				templateUrl: './waimai/waimai.html',
+				controller : 'waimaiCtrl',
+				
+			})
+			.when('/food', {
+				templateUrl: './food/food.html',
+				controller : 'foodCtrl'
+			})
+			.when('/dd', {
+				templateUrl: './dd/dd.html',
+				controller : 'ddCtrl'
+			})
+			.when('/breakfast', {
+				templateUrl: './breakfast/breakfast.html',
+				controller : 'breakfastCtrl'
+			})
+			.when('/find', {
+				templateUrl: './find/find.html'
+			})
+			.when('/mine', {
+				templateUrl: './mine/mine.html'
+			})
+			.when('/love', {
+				templateUrl: './love/love.html',
+				controller : 'loveCtrl'
+			})
+			.otherwise({
+				redirectTo: '/' 
+			})
+		}]);
+		
+		
+		$('nav ul li').click(function () {
+			$('nav ul li div').css('background-position-y','0').eq($(this).index()).css('background-position-y','-2.5rem');
+		});
+		
+		
+		
+		
+	</script>
+	<script type="text/javascript" src="waimai/js/waimai.js" ></script>
+	<script type="text/javascript" src="dd/js/dd.js" ></script>
+	<script type="text/javascript" src="breakfast/js/breakfast.js" ></script>
+	<script type="text/javascript" src="food/js/food.js" ></script>
+	<script type="text/javascript" src="love/js/love.js" ></script>
+	<script type="text/javascript" src="waimai/js/swiper.js" ></script>
+
+</html>

@@ -1,0 +1,380 @@
+{
+	"shopList" : [
+		{
+			"img" : "https://fuss10.elemecdn.com/1/32/c75a72f674052473fb35b5c8ab1d7jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/",
+			"brand" : "品牌",
+			"name" : "北京麦当劳文华路餐厅",
+			"grade" : "4.6",
+			"bill" : "月售1213单",
+			"standard" : "￥0元起送/配送费9元",
+			"distance" : "372m/38分钟",
+			"privilege" : "在线支付满45减10",
+			"subtract" : "减",
+			"activity" : "新",
+			"discount" : "7折海鲜至尊披萨（不参数其他活动）"
+		},
+			
+		{
+			"img" : "https://fuss10.elemecdn.com/5/f5/40633a08f1d7811b15614d367a12bjpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/",
+			"brand" : "寄送",
+			"name" : "大鸭梨（西三旗店）",
+			"grade" : "4.1",
+			"bill" : "月售273单",
+			"standard" : "￥0元起送/配送费4元",
+			"distance" : "1.19km/35分钟",
+			"privilege" : "在线支付满30减8,满60减15",
+			"subtract" : "减",
+			"activity" : "特",
+			"discount" : "新品上线，18元特价"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/4/5f/e0edf70f09e9580e3abe894222594jpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/",
+			"brand" : "招牌",
+			"name" : "湘正府（西三旗店）",
+			"grade" : "4.5",
+			"bill" : "月售1413单",
+			"standard" : "￥0元起送/满20配送5元，满100免..",
+			"distance" : "1.68km/33分钟",
+			"privilege" : "在线支付满25减10,满38减12",
+			"subtract" : "减",
+			"activity" : "8",
+			"discount" : "（不与其他活动共享）迎双十一 8 折 品质餐"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/5/03/2d6ca9d1f0af1c7cee6e29b9c321ejpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/",
+			"brand" : "现做",
+			"name" : "老家肉饼",
+			"grade" : "4.5",
+			"bill" : "月售870单",
+			"standard" : "￥0元起送/满20配送6元",
+			"distance" : "1.68km/33分钟",
+			"privilege" : "在线支付满25减9,满50减15",
+			"subtract" : "减",
+			"activity" : "新",
+			"discount" : "（不与其他活动共享）新用户下单立减5.0元"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/e/6e/dac2d83f4e226de24f56da419ff92png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/",
+			"brand" : "招牌",
+			"name" : "贝贝龙虾",
+			"grade" : "4.5",
+			"bill" : "月售870单",
+			"standard" : "￥0元起送/满20配送6元",
+			"distance" : "1.68km/33分钟",
+			"privilege" : "在线支付满25减9,满50减15",
+			"subtract" : "减",
+			"activity" : "新",
+			"discount" : "（不与其他活动共享）新用户下单立减5.0元"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/d/cf/9db1e289babd94533c83c75f7e39bjpeg.jpeg?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/",
+			"brand" : "鲜尝",
+			"name" : "好嫂子（西三旗店）",
+			"grade" : "4.5",
+			"bill" : "月售767单",
+			"standard" : "￥20元起送/配送费4元",
+			"distance" : "664m/24分钟",
+			"privilege" : "在线支付满20减2,满45减4",
+			"subtract" : "减",
+			"activity" : "特",
+			"discount" : "每天每个账号限购3份，每份限购3单"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/5/d3/37effc5ea232f052328fcc49261e9png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/",
+			"brand" : "鲜尝",
+			"name" : "川江码头家常菜",
+			"grade" : "4.6",
+			"bill" : "月售1300单",
+			"standard" : "￥50元起送/配送费5元",
+			"distance" : "2.78m/40分钟",
+			"privilege" : "在线支付满30减10,满50减13",
+			"subtract" : "减",
+			"activity" : "8",
+			"discount" : "（不与其他活动共享）迎双十一8 折品质餐"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/0/da/f7269d711cd1143f4ee8e17726f52png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/",
+			"brand" : "招牌",
+			"name" : "张亮麻辣烫（霍营店）",
+			"grade" : "4.5",
+			"bill" : "月售1321单",
+			"standard" : "￥0元起送/满20配送费5元",
+			"distance" : "1.61km/35分钟",
+			"privilege" : "在线支付满25减4,满60减8",
+			"subtract" : "减",
+			"activity" : "8"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/8/88/8439121f71febd824b6f152fc5df8png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/",
+			"brand" : "品牌",
+			"name" : "松花江手工水饺",
+			"grade" : "4.6",
+			"bill" : "月售1354单",
+			"standard" : "￥0元起送/满20配送费5元",
+			"distance" : "1.75km/30分钟",
+			"privilege" : "在线支付满18减8,满35减11",
+			"subtract" : "减",
+			"activity" : "8",
+			"discount" : "（不与其他活动共享）迎双十一8 折品质餐"
+		}
+	],
+	"food1" : [
+		{
+			"img" : "https://fuss10.elemecdn.com/8/7c/7d9dcd26aee1da70ca0d9ecbc816djpeg.jpeg",
+			"name": "品质早餐"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/d/dd/56bf93bc8529d93508fd8dc4fa23bjpeg.jpeg",
+			"name": "准时达"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/8/c0/9cbe92b5fa3cc6f1171c8862b62d6jpeg.jpeg",
+			"name": "商店超市"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/e/01/7a293cef45e222b580ade71663bc9jpeg.jpeg",
+			"name": "甜品饮料"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/b/1d/47b4c50239fe576eb55b33481beabjpeg.jpeg",
+			"name": "果蔬生鲜"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/5/1d/f3bdb90420d0a3373882075e98fbajpeg.jpeg",
+			"name": "简餐"
+		}
+	],
+	"food2" : [
+		{
+			"img" : "https://fuss10.elemecdn.com/2/68/48475d232d126fe780901608d431djpeg.jpeg",
+			"name": "鲜花蛋糕"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/e/88/84d92cde05f41a47db692169a8a6ajpeg.jpeg",
+			"name": "汉堡炸鸡"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/b/1d/47b4c50239fe576eb55b33481beabjpeg.jpeg",
+			"name": "果蔬生鲜"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/2/2e/b097a234281abba3ce28486af06ccjpeg.jpeg",
+			"name": "包子粥店"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/a/90/976472798a17aef32553d1e594ad6jpeg.jpeg",
+			"name": "日韩料理"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/3/42/90fcf5b69e8d59924e5e64afc6db1jpeg.jpeg",
+			"name": "麻辣烫"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/3/8e/96a3c8cd1146b5f27f0fba6253533jpeg.jpeg",
+			"name": "披萨一面"
+		},
+		{
+			"img" : "https://fuss10.elemecdn.com/0/65/5093ee472df9984c7a75e68984df7jpeg.jpeg",
+			"name": "川湘菜"
+		}
+		
+	],
+	
+	"breakfs" : [
+		{
+			"img": "https://fuss10.elemecdn.com/8/fd/2d53bd9ca7683650e5a9a16425445jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "每日鲜果",
+			"title": "【买一赠一】润肺皇冠1粒",
+			"price": "4.90",
+			"usedprice": "14.90"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/f/19/46ae1925aa86d2822dca5b1828149jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "肯德基",
+			"title": "[整周特惠套餐]雪菜鸡肉粥+安心油条",
+			"price": "5.00",
+			"usedprice": "6.00"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/c/e0/13356fa325306ccf0c5a409c64b64jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "吉野家",
+			"title": "[套餐]香煎芝士培根季多士+乌龙茶",
+			"price": "9.00",
+			"usedprice": "10.50"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/a/4b/4f3c9aaf6bf5cac3121dda3407e11jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "可喜大宝",
+			"title": "[主食]猪肉大葱包2枚[85g/枚]",
+			"price": "4.39",
+			"usedprice": "8.00"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/f/95/aafa2f36e074227a7284e9a235ef7jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "顿顿香",
+			"title": "[主食]素鸡蛋摊饼100g",
+			"price": "2.99",
+			"usedprice": "5.00"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/8/fd/2d53bd9ca7683650e5a9a16425445jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "每日鲜果",
+			"title": "【买一赠一】润肺皇冠1粒",
+			"price": "4.90",
+			"usedprice": "14.90"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/f/19/46ae1925aa86d2822dca5b1828149jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "肯德基",
+			"title": "[整周特惠套餐]雪菜鸡肉粥+安心油条",
+			"price": "5.00",
+			"usedprice": "6.00"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/c/e0/13356fa325306ccf0c5a409c64b64jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "吉野家",
+			"title": "[套餐]香煎芝士培根季多士+乌龙茶",
+			"price": "9.00",
+			"usedprice": "10.50"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/a/4b/4f3c9aaf6bf5cac3121dda3407e11jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "可喜大宝",
+			"title": "[主食]猪肉大葱包2枚[85g/枚]",
+			"price": "4.39",
+			"usedprice": "8.00"
+		}
+		
+		
+	],
+	"Score" : [
+		{
+			"img" : "http://yun.duiba.com.cn/images/201610/zus73prfaj.jpg",
+			"title" : "Apple全家桶",
+			"score" : "199积分",
+			"text" : "抽奖"
+		},
+		{
+			"img" : "http://yun.duiba.com.cn/images/201610/hdy0x9uik7.jpg",
+			"title" : "iPhone 7 128G",
+			"score" : "399积分",
+			"text" : "抽奖"
+		},
+		{
+			"img" : "http://yun.duiba.com.cn/images/201610/imn7mpj0mb.jpg",
+			"title" : "OPPO R9s",
+			"score" : "199积分",
+			"text" : "抽奖"
+		},
+		{
+			"img" : "http://yun.duiba.com.cn/images/201610/woge8k5ksh.jpg",
+			"title" : "小米运动手环",
+			"score" : "99积分",
+			"text" : "抽奖"
+		},
+		{
+			"img" : "http://yun.duiba.com.cn/images/201610/wx0bv27ml4.jpg",
+			"title" : "Apple Watch 运动腕表",
+			"score" : "299积分",
+			"text" : "抽奖"
+		},
+		{
+			"img" : "http://yun.duiba.com.cn/images/201610/l7yvno8sy2.jpg",
+			"title" : "小米空气净化器 2",
+			"score" : "299积分",
+			"text" : "抽奖"
+		},
+		{
+			"img" : "http://yun.duiba.com.cn/images/201610/yqi2d4rkz1.jpg",
+			"title" : "舒适触感 抱枕",
+			"score" : "99积分",
+			"text" : "抽奖"
+		},
+		{
+			"img" : "http://yun.duiba.com.cn/images/201609/0p2ngq8klh.jpg",
+			"title" : "5元饿了么红包 - 全品类",
+			"score" : "5000积分",
+			"text" : "0元兑换"
+		},
+		{
+			"img" : "http://yun.duiba.com.cn/images/201609/pk48rh9zgw.jpg",
+			"title" : "3元饿了么红包 - 全品类",
+			"score" : "3000积分",
+			"text" : "0元兑换"
+		},
+		{
+			"img" : "http://yun.duiba.com.cn/images/201609/auca5ojqw5.jpg",
+			"title" : "2元饿了么红包 - 全品类",
+			"score" : "2000积分",
+			"text" : "0元兑换"
+		}
+	],
+	"day" : [
+		{
+			"img": "https://fuss10.elemecdn.com/8/fd/2d53bd9ca7683650e5a9a16425445jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "维他命柠檬茶250ml",
+			"price": "0.9",
+			"usedprice": "4.9",
+			"zhe" : "1.8"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/f/19/46ae1925aa86d2822dca5b1828149jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "霸王脆皮鸡饭-蛋黄味",
+			"price": "9.9",
+			"usedprice": "46",
+			"zhe" : "2.2"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/c/e0/13356fa325306ccf0c5a409c64b64jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "雪花鸡排饭-千岛味",
+			"price": "9.9",
+			"usedprice": "46",
+			"zhe" : "2.0"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/a/4b/4f3c9aaf6bf5cac3121dda3407e11jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "香茄肌肉拌饭",
+			"price": "9.9",
+			"usedprice": "46",
+			"zhe" : "1.5"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/f/95/aafa2f36e074227a7284e9a235ef7jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "顿顿香",
+			"price": "2.9",
+			"usedprice": "5.0",
+			"zhe" : "6"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/8/fd/2d53bd9ca7683650e5a9a16425445jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "特色烧饼",
+			"price": "0.5",
+			"usedprice": "14.90",
+			"zhe" : "2.5"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/f/19/46ae1925aa86d2822dca5b1828149jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "鲜鸭肠",
+			"price": "10.8",
+			"usedprice": "36",
+			"zhe" : "3.0"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/c/e0/13356fa325306ccf0c5a409c64b64jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "老鸭血",
+			"price": "4.5",
+			"usedprice": "10.5",
+			"zhe" : "5.0"
+		},
+		{
+			"img": "https://fuss10.elemecdn.com/a/4b/4f3c9aaf6bf5cac3121dda3407e11jpeg.jpeg?imageMogr2/thumbnail/184x184/format/webp/quality/85",
+			"name": "可喜大宝",
+			"price": "4.9",
+			"usedprice": "8.0",
+			"zhe" : "5.6"
+		}
+		
+		
+	]
+
+}

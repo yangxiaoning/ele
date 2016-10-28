@@ -1,0 +1,135 @@
+
+<div class="waimai">
+	<div class="waimai1">
+		<div class="waimai-nav">
+			<div class="waimai-nav-left">
+				昌平区百汇商城
+			</div>
+			<div class="waimai-nav-center">
+				<img src="waimai/img/1.gif"/>
+			</div>
+			<div class="waimai-nav-right">
+				<section class="fangdaqi">
+					<img src="waimai/img/search.png"/>
+				</section>
+				<section class="shuru">
+					<input type="text" placeholder="养胃更养生" />
+				</section>
+			</div>
+		</div>
+	</div>
+	
+	<!--轮播-->
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	       <div class="swiper-slide"><a href="#"><img src="waimai/img/waimai1.gif"/></a></div>
+	       <div class="swiper-slide"><a href="#"><img src="waimai/img/waimai1.gif"/></a></div>
+	       <div class="swiper-slide"><a href="#"><img src="waimai/img/waimai1.gif"/></a></div>
+	    </div>
+	    
+  		<div class="swiper-pagination"></div>
+  		
+	</div>
+	
+	<!--美食专场-->
+	<div class="cate">
+		<div class="cate-left">
+			<div class="ca">
+				<ul class="ul-left">
+					
+					<li><a href="#/food">
+						<span><img src="https://fuss10.elemecdn.com/2/46/0e876ad94d7e028f9dec431975b22jpeg.jpeg"/></span>
+						<p>美食</p>
+					</a></li>
+					<li><a href="#">
+						<span><img src="https://fuss10.elemecdn.com/a/45/b6987550d5c0162565a65e1b65f90jpeg.jpeg"/></span>
+						<p>美食推荐</p>
+					</a></li>
+					<li ng-repeat="n in food1"><a href="#">
+						<span><img src="{{ n.img }}"/></span>
+						<p>{{ n.name }}</p>
+					</a></li>					
+				</ul>
+				
+				
+				
+				<ul class="ul-right">
+					<li ng-repeat="n in food2"><a href="#">
+						<span><img src="{{ n.img }}"/></span>
+						<p>{{ n.name }}</p>
+					</a></li>
+			</ul>
+			</div>
+			
+			<div class="xiabiao">
+				<span class="current"></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+	
+	<!--抢购-->
+	<div class="brunch">
+		<div class="brunch-left">
+			<h1>8元抢午餐</h1>
+			<p>距离结束</p>
+			<p class="brunch1">
+				<span class="s1">{{ h }}</span>:<span class="s2">{{ m }}</span>:<span class="s3">{{ s }}</span>
+			</p>
+			<span class="s4">
+				<img src="waimai/img/sss.jpg"/>
+			</span>
+		</div>
+		<div class="brunch-right">
+			<section class="brunch-top">
+				<a href="#/love">
+					<img src="waimai/img/13.jpeg"/>
+					<h1>川香烫捞</h1>
+					<p>每单享优惠</p>
+				</a>	
+			</section>
+			<section class="brunch-bottom">
+				<div class="br-left">
+					<h1>新用户独享</h1>
+					<p>下单立减20</p>
+					<p class="brpp"><img src="https://fuss10.elemecdn.com/e/88/84d92cde05f41a47db692169a8a6ajpeg.jpeg"/></p>
+				</div>
+				<div class="br-right">
+					<h1>新用户独享</h1>
+					<p>下单立减20</p>
+					<p class="brp"><img src="https://fuss10.elemecdn.com/a/90/976472798a17aef32553d1e594ad6jpeg.jpeg"/></p>
+				</div>
+			</section>
+		</div>
+	</div>
+	
+	<!--附近商家-->
+	<div class="shopper">
+		<p class="shopperp1">
+			<span><img src="waimai/img/111.jpg"/></span>
+			附近商家
+		</p>
+		<div class="shopper1" ng-repeat="x in data">
+			<div class="shopper1-left">
+				<img src="{{ x.img }}"/>
+			</div>
+			<div class="shopper1-right">
+				<div class="shopper1-top">
+					<h1><span>{{ x.brand }}</span>{{ x.name }}</h1>
+					<p class="shopperp2">评分:<span>{{ x.grade }} </span>{{ x.ball }}</p>
+					<p class="shopperp3">{{ x.standard }}<span>{{ x.distance }}</span></p>	
+				</div>
+				<div class="shopper1-bottom">
+					<p class="shopperp4"><span>减</span> {{ x.privilege }}</p>
+					<p class="shopperp5"><span>{{ x.activity }} </span> {{ x.discount }}</p>
+				</div>
+			</div>
+		</div>
+	
+
+	</div>
+	
+	
+	
+</div>
+
