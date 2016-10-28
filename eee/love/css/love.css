@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	background: #EDEDED;
+}
+div.Love .food-nav {
+	display: flex;
+	background: #3492E9;
+	padding: 3% 0;
+}
+div.Love .nav-left {
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color: white;
+}
+div.Love .nav-right {
+	width: 70%;
+	text-align: center;
+	font-size: 1.8rem;
+	color: white;
+}
+div.Love .main {
+	width: 100%;
+	overflow: hidden;
+}
+div.Love .main .mian-top{
+
+	width: 100%;
+}
+div.Love .main .main-top ul {
+	list-style: none;
+	width: 200%;
+	display: flex;
+	padding: 4% 3%;
+	background: white;
+	transition: all 0.5s;
+}
+div.Love .main .main-top ul li{
+	width: 10%;
+	text-align: center;
+	border: solid 1px black;
+	color: black;
+	border-radius: 2rem;
+	margin-right: 2%;
+	font-size: 1.2rem;
+	padding: 0.6% 0;
+} 
+div.Love .main1 {
+	background: white;
+	margin-top: 1.2rem;
+	padding: 3%;
+}
+div.Love .main .main1-top {
+	display: flex;
+	padding-bottom: 5%;
+}
+div.Love .main .main1-top .main1-left {
+	width: 10%;
+}
+div.Love .main .main1-top .main1-left img {
+	width: 2.3rem;
+	
+}
+div.Love .main .main1-top .main1-center {
+	width: 40%;
+}
+div.Love .main .main1-top .main1-center h1{
+	font-size: 1.3rem;
+	line-height: 2.5rem;
+}
+div.Love .main .main1-top .main1-right {
+	line-height: 2.5rem;
+	color: #B2B2B2;
+	width: 50%;
+	text-align: right;
+}
+div.Love .main .main1-bottom {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+div.Love .main .sec1 img {
+	width: 9.2rem;
+}
+div.Love .main .sec1 h1{
+	font-size: 1.2rem;
+	color: #333333;
+	padding: 4% 0;
+}
+div.Love .main .sec1 p {
+	color: red;
+	font-size: 1.3rem;
+	padding: 4% 0;
+}
+div.Love .main .sec1 button {
+	color: red;
+	padding: 3% 30%;
+	background: white;
+	border: none;
+	border: solid 1px red;
+}
+div.Love .m1 section {
+	display: none;
+}

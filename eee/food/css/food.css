@@ -1,0 +1,239 @@
+div.Food .food-nav {
+	background: #3492E9;
+
+}
+div.Food .food-nav .food-nav-top {
+	display: flex;
+	padding: 2% 2% 2% 3%;
+}
+div.Food .food-nav .food-na1 {
+	width: 10%;
+	font-size: 2.5rem;
+}
+div.Food .food-nav .food-na1 a {
+	color: white;
+}
+div.Food .food-nav .food-na2 {
+	width: 80%;
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+}
+div.Food .food-nav .food-na3 img {
+	width: 1.7rem;	
+}
+div.Food .food-to1 {
+	display: flex;
+	padding: 3% 0;
+	border-bottom: solid 1px #DDDDDD;
+	background: white;
+}
+div.Food .food-to1 section{
+	width: 33.33%;
+	text-align: center;
+	position: relative;
+	border-right: solid 1px #cdcdcd;
+	font-size: 1.3rem;
+}
+div.Food .food-top {
+	position: relative;
+}
+div.Food .food-to1 section:last-child {
+	border: none;
+}
+div.Food .food-to1 section .food-s1 {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 0.5rem solid transparent;
+	border-top: 0.5rem solid black;
+	position: absolute;
+	top: 0.3rem;
+	left: 66%;
+}
+div.Food .food-to2 {
+	display: flex;
+
+}
+div.Food .food1{
+	width: 100%;
+	position: absolute;
+	top: 3.3rem;
+	left: 0;
+	background: rgba(0,0,0,.3);
+	z-index: 1;
+}
+div.Food .food-to2 .to2-left {
+	width: 50%;
+	font-size: 1.4rem;
+	background:  #F2F2F2;
+	float: left;
+	height: 40rem;
+}
+div.Food .food-to2 .to2-left ul li {
+	display: flex;
+	padding: 8% 8% 8% 10%;
+	position: relative;
+}
+div.Food .food-to2 .to2-left ul li img {
+	width: 1.7rem;
+	height: 1.7rem;
+}
+div.Food .food-to2 .to2-left .food-s2 {
+	display: inline-block;
+	width: 2.5rem;
+	border: solid 1px black;
+	border-radius: 2rem;
+	text-align: center;
+	background: #CFCFCF;
+	color: #F4F4F4;
+	position: absolute;
+	right: 8%;
+}
+div.Food .food-to2 .to2-left li img {
+	margin-right: 5%;
+}
+div.Food .food-to2 .to2-left li .food-p2 {
+	position: absolute;
+	right: 8%;
+	color: #CFCFCF;
+}
+div.Food .food-to2 .to2-left li .food-p2 span {
+	display: inline-block;
+	width: 2.5rem;
+	border: solid 1px black;
+	border-radius: 2rem;
+	text-align: center;
+	background: #CFCFCF;
+	color: #F4F4F4;
+}
+div.Food .food-to2 .to2-right {
+	width: 50%;
+	background: white;
+	float: left;
+	height: 40rem;
+}
+
+div.Food .food-to2 .to2-right li {
+	margin-left: 10%;
+	padding: 8% 8% 8% 0;
+	font-size: 1.4rem;
+	border-bottom: solid 1px #DDDDDD;
+	box-sizing: border-box;
+}
+div.Food .food-to2 .to2-right li span {
+	float: right;
+	color: #AFAFAF;
+}
+div.Food .shopper {
+	margin-top: 2%;
+	background: white;
+	padding: 2%;
+}
+div.Food .shopper .shopperp1 {
+	vertical-align: middle;
+	color: #B2B2B2;
+	border-bottom: dashed 1px #B2B2B2;
+	padding-bottom: 2%;
+}
+div.Food .shopper .shopperp1 span {
+	vertical-align: middle;
+}
+div.Food .shopper1 {
+	padding: 5% 5%;
+	display: flex;
+	border-bottom: dashed 1px #B2B2B2;
+}
+div.Food .shopper1 p{
+	font-size: 1.2rem;
+}
+div.Food .shopper1 .shopper1-left {
+	width: 20%;
+}
+div.Food .shopper1 .shopper1-left img{
+	width: 90%;
+}
+div.Food .shopper1 .shopper1-right {
+	width: 80%;
+	/*color: #666666;*/
+}
+div.Food .shopper1 .shopper1-right .shopper1-top h1 {
+	font-size: 1.5rem;
+}
+div.Food .shopper1 .shopper1-right .shopper1-top h1 span {
+	background: #FFDD38;
+	font-size: 1.5rem;
+	padding: 1% 2% 1%;
+	margin-right: 2%;
+}
+div.Food .shopper1 .shopper1-right .shopperp2 {
+	color: #B2B2B2;
+	padding: 2% 0;
+	font-size: 1rem;
+}
+div.Food .shopper1 .shopper1-right .shopperp2 span {
+	color: #FF711C;
+	font-size: 2rem;
+}
+div.Food .shopper1 .shopper1-right .shopperp3 {
+	color:#B2B2B2;
+	padding-bottom: 3%;
+	border-bottom: dashed 1px #B2B2B2;
+}
+div.Food .shopper1 .shopper1-right .shopperp3 span {
+	float: right;
+}
+div.Food .shopper1 .shopper1-right .shopperp4 {
+	color: #B2B2B2;
+	padding: 1% 0;
+}
+div.Food .shopper1 .shopper1-right .shopperp4 span {
+	background: #F07373;
+	color: white;
+	font-size: 1.5rem;
+	padding: 1%;
+	display: inline-block;
+	width: 1.3rem;
+}
+div.Food .shopper1 .shopper1-right .shopperp5 {
+	color: #B2B2B2;
+	padding: 1% 0 0 0;
+}
+div.Food .shopper1 .shopper1-right .shopperp5 span{
+	background: #F07373;
+	color: white;
+	font-size: 1.5rem;
+	width: 1.3rem;
+	display: inline-block;
+	text-align: left;
+	padding: 1% 1% 1% 0;
+}
+
+/*div.Food .food-tto2 section{
+	display: none;
+}*/
+div.Food .food-to2 {
+	box-sizing: border-box;
+}
+div.Food .food-tto2 section{
+	background: white;
+}
+div.Food .food-to2 ul li {
+	font-size: 1.5rem;
+	color: black;
+	text-align: center;
+	padding: 5% 0;
+}
+div.Food .food-to3 ul li {
+	font-size: 1.5rem;
+	color: black;
+	text-align: center;
+	padding: 5% 0;
+}
+div.Food .food-to4 ul li {
+	font-size: 1.5rem;
+	color: black;
+	text-align: center;
+	padding: 5% 0;
+}
+

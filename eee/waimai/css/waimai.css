@@ -1,0 +1,307 @@
+
+a {
+	text-decoration: none;
+	color: black;
+}
+ul {
+	list-style: none;
+}
+body {
+	background: #F3F3F3;
+}
+div.waimai .waimai1 {
+	width: 100%;
+	position: relative;
+	height: 2.5rem;
+}
+div.waimai .waimai-nav {
+	width: 100%;
+	display: flex;
+	padding: 2% 3%;
+	background: #503167;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+div.waimai .waimai-nav .waimai-nav-left {
+	width: 20%;
+	line-height: 2.5rem;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: white;
+	font-size: 1.4rem;
+}
+div.waimai .waimai-nav .waimai-nav-center {
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div.waimai .waimai-nav .waimai-nav-center img{
+	width: 1.2rem;
+}
+div.waimai .waimai-nav .waimai-nav-right {
+	width: 60%;
+	display: flex;
+	background: #7F688D;
+	border-radius: 2rem;
+	height: 2.5rem;
+	padding: 0 0 0 3% ;
+}
+div.waimai .waimai-nav .waimai-nav-right .fangdaqi{
+	line-height: 3rem;
+}
+div.waimai .waimai-nav .waimai-nav-right input {
+	background: #7F688D;
+	border: none;
+	height: 2.5rem;
+	width: 100%;
+}
+div.waimai .swiper-container {
+	width: 100%;
+	height: 16rem;
+	clear: both;
+} 
+div.waimai .waimai-nav .waimai-nav-right img {
+	width: 1.2rem;
+}
+div.waimai .swiper-container img {
+	width: 100%;
+	height: 100%;
+}
+div.waimai .cate {
+	background: #F3F3F3;
+	padding: 0 2%;	
+	overflow: hidden;
+}
+div.waimai .cate-left {
+	background: white;
+	border-radius: 1.5rem;
+	width: 100%;
+}
+div.waimai .cate-left .ul-left {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	transition: all .5s ease-in-out;
+}
+div.waimai .cate-left .ul-left li {
+	width: 25%;
+	text-align: center;
+	padding: 1% 0;
+	padding-bottom: 4%;
+}
+div.waimai .cate-left ul li a {
+	color: #7D7D7D;
+}
+div.waimai .cate-left .ul-left li img {
+	width: 4rem;
+}
+div.waimai .ca {
+	width: 200%;
+	display: flex;
+}
+div.waimai .ul-right {
+	width: 50%;
+	transition: all .5s ease-in-out;
+}
+div.waimai .cate-left .ul-right {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+div.waimai .cate-left .ul-right li {
+	width: 25%;
+	text-align: center;
+	padding: 1% 0;
+	padding-bottom: 4%;
+}
+div.waimai .cate-left .ul-right li img {
+	width: 4rem;
+}
+div.waimai .xiabiao {
+	width: 100%;
+	text-align: center;
+}
+div.waimai .xiabiao span {
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.5rem;
+	border: solid 1px black;
+	border-radius: 50%;
+}
+div.waimai .current {
+	background: #AAAAAA;
+}
+div.waimai .brunch {
+	margin-top: 3%;
+	background: white;
+	display: flex;
+	/*padding: 4%;*/
+}
+div.waimai .brunch .brunch-left {
+	width: 35%;
+	border-right: dashed 1px #cdcdcd;
+	padding: 4% 0 0 4%;
+}
+div.waimai .brunch .brunch-left h1 {
+	color: red;
+	font-size: 1.6rem;
+}
+div.waimai .brunch .brunch-left p{
+	font-size: 0.8rem;
+	color: #B2B2B2;
+	padding: 4% 0 0 0;
+}
+div.waimai .brunch .brunch-left .brunch1 span {
+	background: black;
+	color: white;
+	padding: 2%;
+	text-align: center;
+}
+div.waimai .brunch .brunch-left .s4 {
+	display: inline-block;
+	margin: 2rem 0 0 0;
+}
+div.waimai .brunch .brunch-right {
+	width: 70%;
+}
+div.waimai .brunch .brunch-right .brunch-top {
+	padding:4% 4% 6% 4%;
+	border-bottom: dashed 1px #cdcdcd;
+}
+div.waimai .brunch .brunch-right .brunch-top img {
+	width: 25%;
+	float: right;
+	margin-top: -3%;
+}
+div.waimai .brunch .brunch-right .brunch-top h1 {
+	font-size: 1.5rem;
+	margin-top: 3%;
+}
+div.waimai .brunch .brunch-right .brunch-top p {
+	color: #B2B2B2;
+	padding-top: 2%;
+	
+}
+div.waimai .brunch .brunch-right .brunch-bottom {
+	display: flex;
+	justify-content: space-around;
+}
+
+div.waimai .brunch .brunch-right .brunch-bottom .br-left {
+	width: 50%;
+	padding: 3% 0 0 4%;
+	border-right: dashed 1px #cdcdcd;
+}
+div.waimai .brunch .brunch-right .brunch-bottom .br-left p{
+	color: #B2B2B2;
+	padding-top: 2%;
+}
+div.waimai .brunch .brunch-right .brunch-bottom .br-left .brpp {
+	text-align: right;
+}
+div.waimai .brunch .brunch-right .brunch-bottom .br-left .brpp img{
+	width: 65%;
+}
+div.waimai .brunch .brunch-right .brunch-bottom .br-right {
+	padding: 3% 0 0 4%;
+	width: 50%;
+}
+div.waimai .brunch .brunch-right .brunch-bottom .br-right p {
+	color: #B2B2B2;
+	padding-top: 2%;
+}
+div.waimai .brunch .brunch-right .brunch-bottom .br-right img {
+	width: 65%;
+}
+div.waimai .brunch .brunch-right .brunch-bottom .br-right .brp {
+	text-align: right;
+}
+div.waimai .shopper {
+	margin-top: 2%;
+	background: white;
+	padding: 2%;
+}
+div.waimai .shopper .shopperp1 {
+	vertical-align: middle;
+	color: #B2B2B2;
+	border-bottom: dashed 1px #B2B2B2;
+	padding-bottom: 2%;
+}
+div.waimai .shopper .shopperp1 span {
+	vertical-align: middle;
+}
+div.waimai .shopper1 {
+	padding: 5% 0;
+	display: flex;
+	border-bottom: dashed 1px #B2B2B2;
+}
+div.waimai .shopper1 p{
+	font-size: 1.2rem;
+}
+div.waimai .shopper1 .shopper1-left {
+	width: 20%;
+}
+div.waimai .shopper1 .shopper1-left img{
+	width: 90%;
+}
+div.waimai .shopper1 .shopper1-right {
+	width: 80%;
+	/*color: #666666;*/
+}
+div.waimai .shopper1 .shopper1-right .shopper1-top h1 {
+	font-size: 1.5rem;
+}
+div.waimai .shopper1 .shopper1-right .shopper1-top h1 span {
+	background: #FFDD38;
+	font-size: 1.5rem;
+	padding: 1% 2% 1%;
+	margin-right: 2%;
+}
+div.waimai .shopper1 .shopper1-right .shopperp2 {
+	color: #B2B2B2;
+	padding: 2% 0;
+	font-size: 1rem;
+}
+div.waimai .shopper1 .shopper1-right .shopperp2 span {
+	color: #FF0000;
+	font-size: 2rem;
+	font-weight: bold;
+}
+div.waimai .shopper1 .shopper1-right .shopperp3 {
+	color:#B2B2B2;
+	padding-bottom: 3%;
+	border-bottom: dashed 1px #B2B2B2;
+}
+div.waimai .shopper1 .shopper1-right .shopperp3 span {
+	float: right;
+}
+div.waimai .shopper1 .shopper1-right .shopperp4 {
+	color: #B2B2B2;
+	padding: 1% 0;
+}
+div.waimai .shopper1 .shopper1-right .shopperp4 span {
+	background: #F07373;
+	color: white;
+	font-size: 1.5rem;
+	padding: 1%;
+	display: inline-block;
+	width: 1.3rem;
+}
+div.waimai .shopper1 .shopper1-right .shopperp5 {
+	color: #B2B2B2;
+	padding: 1% 0 0 0;
+}
+div.waimai .shopper1 .shopper1-right .shopperp5 span{
+	background: #F07373;
+	color: white;
+	font-size: 1.5rem;
+	width: 1.3rem;
+	display: inline-block;
+	text-align: center;
+	padding: 1% 1% 1% 0;
+}

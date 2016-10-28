@@ -6,11 +6,9 @@
 		<title></title>
 		<script type="text/javascript" src="angular.js" ></script>
 		<script type="text/javascript" src="angular-route.js" ></script>
-		<script src="JS/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="angular-css.js" ></script>
-		<!--<link rel="icon" href="ico.png" charset="utf-8">-->
-
-
+		<!--<script type="text/javascript" src="baiduTemplate.js" ></script>-->
+		<link rel="stylesheet" href="waimai/css/swiper.min.css" />
 	</head>
 	<style type="text/css">
 		* {
@@ -19,6 +17,13 @@
 		}
 		html {
 			font-size: 62.5%;
+		}
+		a {
+			text-decoration: none;
+			color: black;
+		}
+		ul {
+			list-style: none;
 		}
 		nav {
 			width: 100%;
@@ -29,6 +34,7 @@
 		nav ul {
 			display: flex;
 			list-style: none;
+			z-index: 33;
 		}
 		nav ul li {
 			width: 25%;
@@ -62,7 +68,7 @@
 	<body ng-app="myApp">
 		<nav>
 			<ul>
-				<li><a href="#/">
+				<li ng-click="click()"><a href="#/">
 					<div class="jin"></div>
 					<p>外卖</p>
 				</a></li>
@@ -84,35 +90,60 @@
 			
 		</div>
 	</body>
+	<script type="text/javascript" src="waimai/js/zepto.js" ></script>
+	<script type="text/javascript" src="waimai/js/touch.js" ></script>
+	<script type="text/javascript" src="jquery-2.2.3.js" ></script>
 	<script type="text/javascript">
-		var app = angular.module('myApp',["ngRoute", "angularCSS"]);
-		
-		
+		var app = angular.module('myApp',["ngRoute",'angularCSS']);
+
 		app.config(['$routeProvider',function ($routeProvider) {
 			$routeProvider
 			.when('/',{
-				templateUrl: './waimai/waimai.html'
+				templateUrl: './waimai/waimai.html',
+				controller : 'waimaiCtrl',
+				
+			})
+			.when('/food', {
+				templateUrl: './food/food.html',
+				controller : 'foodCtrl'
 			})
 			.when('/dd', {
-				templateUrl: './dd/dd.html'
+				templateUrl: './dd/dd.html',
+				controller : 'ddCtrl'
+			})
+			.when('/breakfast', {
+				templateUrl: './breakfast/breakfast.html',
+				controller : 'breakfastCtrl'
 			})
 			.when('/find', {
-				templateUrl: './find/find.html',
-				controller: "findCtrl"
+				templateUrl: './find/find.html'
 			})
 			.when('/mine', {
-				templateUrl: './mine/mine.html',
-				controller: "mineCtrl"
+				templateUrl: './mine/mine.html'
+			})
+			.when('/love', {
+				templateUrl: './love/love.html',
+				controller : 'loveCtrl'
 			})
 			.otherwise({
 				redirectTo: '/' 
 			})
 		}]);
 		
+		
 		$('nav ul li').click(function () {
 			$('nav ul li div').css('background-position-y','0').eq($(this).index()).css('background-position-y','-2.5rem');
 		});
+		
+		
+		
+		
 	</script>
-	<script src="mine/js/mine.js" type="text/javascript" charset="utf-8"></script>
-	<script src="find/js/find.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="waimai/js/waimai.js" ></script>
+	<script type="text/javascript" src="dd/js/dd.js" ></script>
+	<script type="text/javascript" src="breakfast/js/breakfast.js" ></script>
+	<script type="text/javascript" src="food/js/food.js" ></script>
+	<script type="text/javascript" src="love/js/love.js" ></script>
+	<script type="text/javascript" src="waimai/js/swiper.js" ></script>
+
 </html>

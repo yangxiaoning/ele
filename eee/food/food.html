@@ -1,0 +1,140 @@
+<div class="Food">
+	<div class="food-nav">
+		<div class="food-nav-top">
+			<section class="food-na1">
+				<a href="#/"><</a>
+			</section>
+			<section class="food-na2">
+				美食
+			</section>
+			<section class="food-na3">
+				<img src="food/img/f1.gif"/>
+			</section>
+		</div>
+	</div>	
+	
+	<div class="food-top">
+		<div class="food-to1">
+			<section>
+				分类<span class="food-s1"></span>
+			</section>
+			<section>
+				排序<span class="food-s1"></span>
+			</section>
+			<section>
+				筛选 <span class="food-s1"></span>
+			</section>
+		</div>
+		<div class="food1">	
+			<div class="food-tto2">
+				
+				<section class="food-to2">
+					<div class="to2-left">
+						<ul>
+							<li>
+								美食<span class="food-s2">342</span>
+							</li>
+							<li>
+								<img src="food/img/f2.gif"/>
+								<p class="food-p1">快餐便当</p>
+								<p class="food-p2"><span>138</span> ></p>
+							</li>
+							<li>
+								<img src="food/img/f3.gif"/>
+								<p class="food-p1">特色菜系</p>
+								<p class="food-p2"><span>138</span> ></p>
+							</li>
+							<li>
+								<img src="food/img/f4.gif"/>
+								<p class="food-p1">异国料理</p>
+								<p class="food-p2"><span>138</span> ></p>
+							</li>
+							<li>
+								<img src="food/img/f5.gif"/>
+								<p class="food-p1">小吃夜宵</p>
+								<p class="food-p2"><span>138</span> ></p>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="to2-right">
+						<ul>
+							<li>更多商品</li>
+						</ul>
+						<ul>
+							<li>全部快餐便当<span>138</span></li>
+							<li>盖浇饭<span>75</span></li>
+							<li>香锅砂锅<span>23</span></li>
+							<li>米粉面馆<span>16</span></li>
+							<li>麻辣烫<span>12</span></li>
+							<li>饺子混沌<span>8</span></li>
+							<li>包子粥店<span>6</span></li>
+							<li>汉堡<span>4</span></li>
+							<li>生煎锅贴<span>2</span></li>
+						</ul>
+						<ul>
+							<li>sad</li>
+						</ul>
+						<ul>
+							<li>sw</li>
+						</ul>
+						<ul>
+							<li>saaa</li>
+						</ul>
+					</div>
+					
+				</section>
+				<section class="food-to3">
+						<ul>
+							<li>智能排序</li>
+							<li>智能排序</li>
+							<li>智能排序</li>
+							<li>智能排序</li>
+							<li>智能排序</li>
+							<li>智能排序</li>
+						</ul>
+				</section>
+				<section class="food-to4">
+					<ul>
+						<li>智能筛选</li>
+						<li>智能筛选</li>
+						<li>智能筛选</li>
+						<li>智能筛选</li>
+						<li>智能筛选</li>
+						<li>智能筛选</li>
+					</ul>
+				</section>
+			
+			</div>	
+		</div>	
+	</div>
+
+	<div class="food-main">
+		
+		<div class="shopper1" ng-repeat="x in data">
+			<div class="shopper1-left">
+				<img src="{{ x.img }}"/>
+			</div>
+			<div class="shopper1-right">
+				<div class="shopper1-top">
+					<h1><span>{{ x.brand }}</span>{{ x.name }}</h1>
+					<p class="shopperp2">评分:<span>{{ x.grade }} </span>{{ x.ball }}</p>
+					<p class="shopperp3">{{ x.standard }}<span>{{ x.distance }}</span></p>	
+				</div>
+				<div class="shopper1-bottom">
+					<p class="shopperp4"><span>减</span> {{ x.privilege }}</p>
+					<p class="shopperp5"><span>{{ x.activity }} </span> {{ x.discount }}</p>
+				</div>
+			</div>
+		</div>
+			
+			
+			
+			
+		
+	</div>
+	
+	
+	
+	
+</div>
