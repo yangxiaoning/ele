@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span , b , a , i , em {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+html , body {
+	font-size: 62.5%;
+	font-family: "微软雅黑";
+	background: #eee;
+}
+img {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+
+
+.recommend header {
+	width: 100%;
+	height: 3.6rem;
+	font-size: 1.8rem;
+	background: #3492e9;
+	color: #fff;
+	line-height: 3.6rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	text-align: center;
+	z-index: 999;
+	display: flex;
+}
+.recommend header b {
+	width:80%;
+}
+.recommend header i {
+	width: 10%;
+	height: 100%;
+	background-size: 1.5rem;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.recommend header i:first-child {
+	background-image: url(../../FINDcreditsExchange/img/go_back.png);
+}
+.recommend header i:last-child {
+	background-image: url(../img/search.png);
+	background-size: 2rem;
+}
+.recommend main {
+	background: #fff;
+	margin-top: 3.6rem;
+	width: 100%;
+}
+.recommend main .selectionSort {
+	width: 100%;
+	position: relative;
+}
+.recommend main .selectionSort .selectionSortButtons {
+	width: 96%;
+	display: flex;
+	padding: 2%;
+}
+.recommend main .selectionSort .selectionSortButtons span {
+	width: 33%;
+	height: 2rem;
+	font-size: 1.6rem;
+	line-height: 2rem;
+	text-align: center;
+	border-right: 1px solid #ddd;
+}
+.recommend main .selectionSort .selectionSortButtons span:last-child {
+	border: none; 
+}
+.recommend main .selectionSort .selectionSortButtons span i {
+	width: 2rem;
+	height: 2rem;
+	background: no-repeat center .4rem;
+	background-size: 1.4rem;
+	vertical-align: middle;
+}
+.recommend main .selectionSort .selectionSortButtons .iBackgroundBottom {
+	color: #212121;
+}
+.recommend main .selectionSort .selectionSortButtons .iBackgroundBottom i {
+	background-image: url(../img/bottomBtn.png);
+}
+.recommend main .selectionSort .selectionSortButtons .iBackgroundTop {
+	color: #3b96ea;
+}
+.recommend main .selectionSort .selectionSortButtons .iBackgroundTop i {
+	background-image: url(../img/topBtn.png);
+}
+.recommend main .selectionSortButtoms {
+	position: absolute;
+	left: 0;
+	top: 3.5rem;
+	width: 100%;
+}
+.recommend main .selectionSortButtoms_in {
+	background: rgba(0,0,0, .4);
+}
+.recommend main .selectionSortButtoms .SelectButtomBox {
+	display: none;
+	background: #fff;
+}
+
+.recommend main .selectionSortButtoms  .displayBlock {
+	display: block; 
+}
+.recommend main .selectionSortButtoms .classify {
+	background: #f2f2f3;
+	
+}
+.recommend main .selectionSortButtoms .classify .classifyRight {
+	background: #fff;
+	width: 50%;
+	float: left;
+}
+.recommend main .selectionSortButtoms .sort ul li {
+	font-size: 1.6rem;
+	border-top: .05rem solid #ddd;
+	line-height: 3rem;
+	padding-left: 10%;
+}
+.recommend main .selectionSortButtoms .screen span {
+	border: .05rem solid #ddd;
+	border-radius: .2rem;
+	padding: .5%;
+	width: 25%;
+	text-align: center;
+	margin-top: 1rem;
+	font-size: 1.2rem;
+}
+.recommend main .selectionSortButtoms .screen button {
+	width: 40%;
+	border: .05rem solid #ddd;
+	background: #fff;
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+	color: #ddd;
+	margin: 2rem 0 1rem;
+}
+.recommend main .selectionSortButtoms .screen button:nth-child(2) {
+	background: #6AC20B;
+	color: #fff;
+
+}
+.recommend main .selectionSortButtoms .screen .screenBox div {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.recommend main .selectionSortButtoms .screen .screenBox h3 {
+	font-weight: 400;
+	padding: 1rem 0 0 1.2rem;
+	font-size: 1.5rem;
+}
+.recommend main .selectionSortButtoms .screen .screenBox:nth-child(1) div {
+	justify-content: flex-start;
+	margin-left: 1.2rem;
+	
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft {
+	width: 50%;
+	float: left;
+	background: #f2f2f2
+}
+
+.recommend main .selectionSortButtoms .classify .classifyLeft  li {
+	line-height: 3rem;
+	background: url(../../mine/img/mine-tabList-goRight.png) no-repeat 95% center;
+	background-size: .8rem;
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft  li:nth-child(2) {
+	
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft  li b {
+	width: 20%;
+	background:url(../img/background1.png) no-repeat center 0;
+	height: 3rem;
+	background-size: 2rem;
+	vertical-align: middle;
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft  li i {
+	float: right;
+	margin-right: 11%;
+	margin-top: .8rem;
+	background: #cfcfcf;
+	border-radius: .6rem;
+	line-height: 1rem;
+	color: #fff;
+	padding: 1% 2%;
+	
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft  li:first-child {
+	background: #fff;
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft  li:nth-child(1) b {
+	background-position-y: 5rem;
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft  li:nth-child(3) b {
+	background-position-y: -5.5rem;
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft  li:nth-child(4) b {
+	background-position-y: -11rem;
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft  li:nth-child(5) b {
+	background-position-y: -16.5rem;
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft  li:nth-child(6) b {
+	background-position-y: -22rem;
+}
+.recommend main .selectionSortButtoms .classify .classifyLeft  li:nth-child(7) b {
+	background-position-y: -27.5rem;
+}
+.recommend main .selectionSortButtoms .classify .classifyRight ul {
+	display: none;
+	height: 22.167rem;
+	overflow-y: auto;
+}
+.recommend main .selectionSortButtoms .classify .classifyRight ul li {
+	border-bottom: .03rem solid #ddd;
+	margin-left: 1rem;
+	line-height: 3rem;
+
+}
+.recommend main .selectionSortButtoms .classify .classifyRight ul li i {
+	float: right;
+	margin-right: 1rem;
+}
+.recommend main .selectionSortButtoms .classify .classifyRight .displayBlock2 {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommend main .recommendShopBox .recommendShopOne {
+	border-top: 1px solid #ddd;
+	background-repeat: no-repeat;
+	background-position: 1rem 1.5rem;
+	background-size: 6rem;
+	padding: 1.5rem 1rem 1rem 8rem;
+}
+.recommend main .recommendShopBox .recommendShopOne h3 {
+	font-size: 2rem;
+	color: #333333;
+}
+.recommend main .recommendShopBox .recommendShopOne h3 i {
+	font-size: 1.5rem;
+	line-height: 1.6rem;
+	padding: 0 1%;
+	margin-right: 1rem;
+	background: #ffe143;
+	border-radius: .2rem;
+	color: #52250a;
+}
+.recommend main .recommendShopBox .recommendShopOne p {
+	color: #666666;
+	line-height: 2.5rem;
+	font-size: 1.35rem;
+}
+.recommend main .recommendShopBox .recommendShopOne .shopBill i {
+	color: #ff6000;
+	margin-right: 1rem;
+}
+.recommend main .recommendShopBox .recommendShopOne .shopStart {
+	border-bottom: 1px dashed #ccc;
+}
+.recommend main .recommendShopBox .recommendShopOne .shopActive i {
+	width: 1.8rem;
+	border-radius: .2rem;
+	line-height: 1.8rem;
+	color: #fff;
+	text-align: center;
+	margin-right: 1rem;
+	font-size: 1.5rem;
+}
+
+.recommend main .recommendShopBox .recommendShopOne .shopActive1 i {
+	background: #f07373;
+}
+.recommend main .recommendShopBox .recommendShopOne .shopActive2 i {
+	background: #f1884f;
+	
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>creditsExchange</title>
+		<link rel="stylesheet" type="text/css" href="css/creditsExchange.css"/>
+		<script src="../JS/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../CSS/swiper.min.css"/>
+		<script src="../JS/swiper.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="../JS/baiduTemplate.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="creditsExchange">
+			<header><i class="goBack"></i>积分兑换</header>
+			<main>
+				<div class="integral">
+					<span><a href="">积分<b>0</b></a></span>
+					<span><a href="">兑换记录</a></span>
+				</div>
+				<banner>
+					<div class="swiper-container">
+						 <div class="swiper-wrapper">
+							<div class="swiper-slide"><a href="#"><img src="img/banner1.jpg"/></a></div>
+							<div class="swiper-slide"><a href="#"><img src="img/banner2.jpg"/></a></div>
+							<div class="swiper-slide"><a href="#"><img src="img/banner3.jpg"/></a></div>
+							<div class="swiper-slide"><a href="#"><img src="img/banner4.jpg"/></a></div>
+							<div class="swiper-slide"><a href="#"><img src="img/banner5.jpg"/></a></div>
+							<div class="swiper-slide"><a href="#"><img src="img/banner6.jpg"/></a></div>
+						</div>
+						<div class="swiper-pagination"></div>
+						</div>
+				</banner>
+				<nav>
+					<ul>
+						<li><a href="">所有商品</a></li>
+						<li><a href="">实物</a></li>
+						<li><a href="">数码家电</a></li>
+						<li><a href="">日常家具</a></li>
+						<li><a href="">食品饮料</a></li>
+						<li><a href="">个护美妆</a></li>
+					</ul>
+				</nav>
+				<div class="intergralShopBox">
+					<h3>大家都在兑</h3>
+					<div class="intergralShopList">
+						<script id="intergralShop_Template" type="text/html" charset="utf-8">
+							<%for (var i = 0 ; i< Score.length ; i ++) {%>
+								<span class="intergralShopOne">
+									<h4><%=Score[i].title%></h4>
+									<p><%=Score[i].score%><i><%=Score[i].text%></i></p>
+									<img src="<%=Score[i].img%>" alt="" />
+								</span>
+							<%}%>
+						</script>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+	<script src="js/creditsExchange.js" type="text/javascript" charset="utf-8"></script>
+</html>

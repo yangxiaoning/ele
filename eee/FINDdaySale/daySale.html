@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>DaySale</title>
+		<link rel="stylesheet" type="text/css" href="css/daySale.css"/>
+		<script src="../JS/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../JS/baiduTemplate.js" type="text/javascript" charset="utf-8"></script>
+
+		
+	</head>
+	<body>
+		<div class="daySale">
+			<header><i class="goBack"></i>天天特价</header>
+			<main>
+				<div class="banner"></div>
+				<div class="daySale_ShopBox">		
+					<script type="text/html" charset="UTF-8" id="daySale_ShopBox_Template">
+						<%for (var i =0 ; i< day.length ; i++ ) {%>
+							<span class="daySale_shopOne">
+								<img src="<%=day[i].img%>" alt="" />
+								<i class="zhe"><%=day[i].zhe%>折</i>
+								<p class="shopName"><%=day[i].name%></p>
+								<p class="shopPrice">￥<b><%=day[i].price%></b><i>￥<%=day[i].usedprice%></i><em>抢</em></p>
+							</span>
+						<%}%>
+					</script>
+				</div>
+			</main>
+			
+		</div>
+	</body>
+	<script src="js/daySale.js" type="text/javascript" charset="utf-8"></script>
+	
+</html>
